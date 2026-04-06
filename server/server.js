@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:5174' }));
+app.use(cors()); // Allows any origin to access the API in production
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
