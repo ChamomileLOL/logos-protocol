@@ -1,0 +1,11 @@
+# Node modules at the root
+node_modules/
+.DS_Store
+
+# Local environment files (Crucial: Do not share your passwords!)
+.env
+.env.local
+.env.production
+
+# Docker clutter
+.dockerignore

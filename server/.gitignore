@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Environment files holding the database URI
+.env
+
+# Logs
+npm-debug.log*
