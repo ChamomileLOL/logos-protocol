@@ -12,7 +12,7 @@ function App() {
       
       const sampleArray = [10, 20, 30, 40];
       
-      axios.post('http://localhost:5000/api/paradox-sum', { numbers: sampleArray })
+      axios.post('https://logos-protocol-server.onrender.com/api/paradox-sum', { numbers: sampleArray })
         .then(response => {
           setServerSum(response.data.sum);
           // CORRECTED: Using the setter function instead of direct assignment
